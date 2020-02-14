@@ -20,10 +20,15 @@ echo "<br>";
 echo strlen($secretWord);
 echo "<br>";
 
-if ($user1 > $secretWord) {
+$user1_1 = strlen($user1);
+$user2_2 = strlen($user2);
+$user3_3 = strlen($user3);
+$secret_word = strlen($secretWord);
+
+if ($user1_1 > $secret_word) {
     echo "user1 je veci.";
-} elseif ($user1 > $secretWord and $user2 > $secretWord) {
+} elseif ($user1_1 > $secret_word and $user2_2 > $secret_word) {
     echo "user1 i user3 su veci.";
-} elseif ($user1 > $secretWord or $user3 > $secretWord) {
+} elseif ($user1_1 > $secret_word or $user3_3 > $secret_word) {
     echo "jedan je veci";
 }

@@ -11,6 +11,6 @@ $details = [
         'country' => 'Serbia',
     ],
     'ocupation' => 'GoPlayer',
-    ];
+];
 
-    print_r(($details["person"["name"] . " is a " . $details["ocupation"] . " from " . $details["country"] . " and is " . $details["age"] . " years old.";
+echo $details["person"]["name"] . " is a " . $details["ocupation"] . " from " . $details["person"]["country"] . " and is " . $details["person"]["age"] . " years old.";

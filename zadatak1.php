@@ -18,5 +18,3 @@ if ($number >= $broj_u_listi) {
 } elseif ($number <= $broj_u_listi) {
     echo "Broj je mali.";
 }
-
-echo "hello";

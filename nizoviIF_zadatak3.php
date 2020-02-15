@@ -13,8 +13,7 @@ $email1 = $users1["email"];
 $email2 = $users2["email"];
 
 if ($user_name1 == $user_name2 & $email1 == $email2) {
-    echo "<h1>VALID<\h1>";
-}else(){
-    echo "<a>Please register<\a?";
+    echo "<h1>VALID</h1>";
+} else {
+    echo "<a>Please register</a>?";
 }
-

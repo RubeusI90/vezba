@@ -11,5 +11,5 @@ $player_ben0 = $player1["country"];
 $player_tanguy = $player2["country"];
 
 if ($player_ben0 == $player_tanguy) {
-    echo "Ben0 and Tanguy are from same country.";
+    echo $player1["user"] . " and " . $player2["user"] . " are from same country.";
 }

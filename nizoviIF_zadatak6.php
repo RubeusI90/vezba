@@ -14,11 +14,12 @@ $allUsers = [
 $user1 = $allUsers["user1"];
 $user2 = $allUsers["user2"];
 
-if ($user1 == $mainuser & $user2 == $mainuser) {
+if ($user1 == $mainuser || $user2 == $mainuser) {
     echo "Already exist. Try again";
 } else {
-};
+    echo "Welcome.";
+}
 
 $user3 = $mainuser;
-$allUsers[] = $user3;
+$allUsers["user3"] = "MAINUSER";
 print_r($allUsers);

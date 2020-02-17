@@ -20,3 +20,5 @@
 if (isset($_POST["button"])) {
     $welcome = $_POST["username"];
     echo "Welcome " . $welcome;
+}
+?>

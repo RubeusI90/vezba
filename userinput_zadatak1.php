@@ -18,10 +18,11 @@
     <br>
     <br>
     <input type="submit" value="SEND" name="button">
+</form>
 
-    <?php
+<?php
 
-    if (isset($_POST["button"])) {
-        print_r($_POST);
-    }
-    ?>
+if (isset($_POST["button"])) {
+    print_r($_POST);
+}
+?>

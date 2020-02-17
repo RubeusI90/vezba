@@ -18,3 +18,4 @@
 if (isset($_POST["button"])) {
     echo "Welcome user.";
 }
+?>

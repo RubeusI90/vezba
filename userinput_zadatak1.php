@@ -16,3 +16,9 @@
     <br>
     <input type="submit" name="button" value="SEND">
 </form>
+
+<?php
+
+print_r($_POST);
+
+?>

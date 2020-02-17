@@ -7,18 +7,21 @@
 
 ?>
 
-<form action="" method="post">
+<form name="form1" method="POST" action="">
+    User name:
+    <br>
     <input type="text" name="username">
     <br>
+    Email:
     <br>
     <input type="text" name="email">
     <br>
     <br>
-    <input type="submit" name="button" value="SEND">
-</form>
+    <input type="submit" value="SEND" name="button">
 
-<?php
+    <?php
 
-print_r($_POST);
-
-?>
+    if (isset($_POST["button"])) {
+        print_r($_POST);
+    }
+    ?>

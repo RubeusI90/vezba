@@ -24,14 +24,14 @@
         <input type="text" name="user"><br>
         <input type="submit" name="button" value="Send"><br><br>
 
+        <label for="country">Select country: </label>
+        <select name="country">
+            <option value="serbia">Serbia</option>
+            <option value="japan">Japan</option>
+            <option value="russia">Russia</option>
+
     </form>
 
-    <label for="country">Select country: </label>
-
-    <select name="country">
-        <option value="serbia">Serbia</option>
-        <option value="japan">Japan</option>
-        <option value="russia">Russia</option>
     </select>
 
     <?php

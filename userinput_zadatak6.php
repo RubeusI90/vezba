@@ -18,26 +18,26 @@
 
 <body>
 
-
-    <form name="form1" method="$_POST" action="">
+    <form name="form1" method="POST" action="">
         User<br>
         <input type="text" name="user"><br>
-        <input type="submit" name="button" value="Send"><br><br>
-
         <label for="country">Select country: </label>
         <select name="country">
             <option value="serbia">Serbia</option>
             <option value="japan">Japan</option>
             <option value="russia">Russia</option>
-
+        </select>
+        <input type="submit" name="button" value="Send">
     </form>
+    <br>
 
-    </select>
 
     <?php
 
     if (isset($_POST["button"])) {
-        echo $_POST;
+        $user = $_POST["user"];
+        $country = $_POST["country"];
+        echo $user . " is from " . $country;
     }
 
     ?>

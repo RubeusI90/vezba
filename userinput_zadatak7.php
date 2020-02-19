@@ -28,6 +28,15 @@ if (isset($_POST["button"])) {
     $num1 = $_POST["num1"];
     $num2 = $_POST["num2"];
     $operation = $_POST["calculator"];
-    $sum = $num1 . $operation . $num2;
-    echo $sum;
+    if ($operation == "+") {
+        echo $num1 + $num2;
+    } elseif ($operation == "-") {
+        echo $num1 - $num2;
+    } elseif ($operation == "*") {
+        echo $num1 * $num2;
+    } elseif ($operation == "/") {
+        echo $num1 / $num2;
+    }
 }
+
+?>

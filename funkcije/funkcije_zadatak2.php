@@ -15,5 +15,5 @@ function add($number1, $number2)
     return $total;
 }
 
-$num1 = add(10, 22);
-echo $num1;
+//$num1 = add();
+echo $total;

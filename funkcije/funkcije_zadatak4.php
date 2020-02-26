@@ -15,7 +15,7 @@ $colors = [
 
 function favouriteColors($c)
 {
-    return $colors["favourite"];
+    return $c["favourite"];
 }
 
 $favourite_color = favouriteColors($colors);

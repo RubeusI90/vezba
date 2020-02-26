@@ -14,11 +14,9 @@ function nameInfo($fname, $status = "admin")
     return $fname . " is " . $status . ".";
 }
 
-nameInfo("Nemanja");
 $name1 = nameInfo("Nemanja");
 echo $name1;
 echo "<br>";
 
-nameInfo("Nemanja", "normal");
 $name2 = nameInfo("Nemanja", "normal");
 echo $name2;

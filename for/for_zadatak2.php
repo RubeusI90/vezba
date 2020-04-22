@@ -8,6 +8,7 @@ Output:
     10
 */
 
+$sum = 0;
 $num1 = 1;
 $num4 = 4;
 for ($i = $num1; $i <= $num4; $i++) {
